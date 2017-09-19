@@ -14,7 +14,7 @@ int main() {
 		std::cerr << "\nIncorrect number of arguments\n";
 		return 1;
 	}*/
-	w2::Stations stations("Text.txt");
+	w2::Stations stations("more_on_files.txt.txt");
 	stations.update();
 	stations.restock();
 	stations.report();
